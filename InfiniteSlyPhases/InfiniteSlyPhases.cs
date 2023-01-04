@@ -11,7 +11,7 @@ namespace InfiniteSlyPhases
         private static Menu? MenuRef;
         public static MenuScreen CreateModMenu(MenuScreen modlistmenu)
         {
-            MenuRef ??= new Menu("AbsRad Phase Options", new Element[]
+            MenuRef ??= new Menu("Sly Phase Options", new Element[]
             {
             new CustomSlider(
                 "Phase (3 does nothing)",
